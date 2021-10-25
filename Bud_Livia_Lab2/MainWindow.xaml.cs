@@ -36,7 +36,6 @@ namespace Bud_Livia_Lab2
             cmd2.Executed += new ExecutedRoutedEventHandler(CtrlS_CommandHandler);
             //asociem handler
             this.CommandBindings.Add(cmd2);
-
         }
 
         private void CtrlS_CommandHandler(object sender, ExecutedRoutedEventArgs e)
