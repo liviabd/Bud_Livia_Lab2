@@ -5,7 +5,17 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Controls;
+<<<<<<< HEAD
 using System.Windows.Input;
+=======
+using System.Windows.Data;
+using System.Windows.Documents;
+using System.Windows.Input;
+using System.Windows.Media;
+using System.Windows.Media.Imaging;
+using System.Windows.Navigation;
+using System.Windows.Shapes;
+>>>>>>> 2cf2120113b63f91f5d5a53b7d4c60170eda8335
 
 namespace Bud_Livia_Lab2
 {
@@ -13,6 +23,7 @@ namespace Bud_Livia_Lab2
     /// Interaction logic for MainWindow.xaml
     /// </summary>
     public partial class MainWindow : Window
+<<<<<<< HEAD
     {        
         public MainWindow()
         {
@@ -253,5 +264,12 @@ namespace Bud_Livia_Lab2
                 }
             }
         }       
+=======
+    {
+        public MainWindow()
+        {
+            InitializeComponent();
+        }
+>>>>>>> 2cf2120113b63f91f5d5a53b7d4c60170eda8335
     }
 }
